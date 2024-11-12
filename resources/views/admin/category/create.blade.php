@@ -61,9 +61,6 @@
         </div>
         <!-- /.card -->
     </section>
-
-
-
 @endsection
 
 @section('customJs')
@@ -105,10 +102,8 @@
                         } else {
                             $("#slug").removeClass('is-invalid').siblings('p').removeClass(
                                 'invalid-feedback').html("");
-
                         }
                     }
-
 
                 },
                 error: function(jqXHR, exception) {
@@ -120,35 +115,3 @@
         });
     </script>
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
