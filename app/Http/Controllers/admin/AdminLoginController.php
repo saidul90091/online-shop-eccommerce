@@ -46,6 +46,6 @@ class AdminLoginController extends Controller
     }
 
 
-  
+
 
 }
